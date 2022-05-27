@@ -3,17 +3,20 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "api": "json-server --watch db.json",
+    "api": "json-server --watch db.json --port 3333",
     "static": "http-server ./static-demo"
   },
   "dependencies": {
+    "http-server": "^0.12.3",
+    "json-server": "^0.16.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "http-server": "^0.12.3",
-    "json-server": "^0.16.3"
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "use-http": "^1.0.26"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

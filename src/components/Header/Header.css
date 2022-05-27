@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.prev-page {
+  border: none;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--blue);
+  margin-right: 2rem;
+}

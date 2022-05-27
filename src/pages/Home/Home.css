@@ -1,0 +1,48 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-info {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  font-weight: 600;
+  padding: 12px 14px;
+  border-radius: 8px;
+}
+
+.columns-header {
+  background: var(--light-grey);
+  color: var(--black);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  width: 100%;
+  align-items: center;
+}
+
+.item {
+  background: var(--medium-grey);
+  color: var(--white);
+  flex: 1;
+  transition: all 300ms;
+  text-decoration: none;
+}
+
+.item p {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+
+.item:hover {
+  opacity: .7;
+  cursor: pointer;
+}
